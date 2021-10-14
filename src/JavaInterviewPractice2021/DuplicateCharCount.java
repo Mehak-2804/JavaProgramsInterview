@@ -9,7 +9,7 @@ public class DuplicateCharCount {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-//		printDuplicateChar("This is Mehak Kapoor");
+		printDuplicateChar("aabbccdd");
 //output  a:2
 //		  s:2
 //		  h:2
@@ -17,7 +17,7 @@ public class DuplicateCharCount {
 //		  k:2
 //		  o:2
 //		getCharCount("Hello testing", 't');
-		getCharOccurrence("unicorn", 'n');
+//		getCharOccurrence("unicorn", 'n');
 //		getCharOccurrenceUsingStreams("I fall for myself" , "f");
 	}
 

@@ -6,7 +6,7 @@ public class OccurenceChar {
 		// TODO Auto-generated method stub
 
 		
-		String s="Interview";
+		String s="aabbccdd";
 		s=s.toLowerCase();
 		char[] c=s.toCharArray();
 		int sz=s.length();
@@ -26,7 +26,7 @@ public class OccurenceChar {
 				}
 				if(j==sz-1)
 				{
-					System.out.println("the count of " + c[i] + " is " + counter);
+					System.out.println(c[i] +""+ counter);
 				}
 				
 			}
