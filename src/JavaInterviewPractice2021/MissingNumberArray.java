@@ -1,7 +1,5 @@
 package JavaInterviewPractice2021;
 
-import java.util.Arrays;
-
 public class MissingNumberArray {
 
 	public static void main(String[] args) {
