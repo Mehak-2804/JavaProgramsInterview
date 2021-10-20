@@ -1,4 +1,4 @@
-package StringIQ;
+package JavaInterviewPractice2021;
 
 public class OccurenceChar {
 
