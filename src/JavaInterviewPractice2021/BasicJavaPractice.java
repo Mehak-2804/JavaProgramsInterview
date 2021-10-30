@@ -5,11 +5,11 @@ public class BasicJavaPractice {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-//		largestSmallestNum(new int[] { 10, 40, 20, 60, 13 });
-//
-//		alternateNum(new int[] { 20, 30, 40, 60, 70 });
-//
-//		duplicateNum(new int[] { 10, 20, 20, 30, 40, 10 });
+		largestSmallestNum(new int[] { 10, 40, 20, 60, 13 });
+
+		alternateNum(new int[] { 20, 30, 40, 60, 70 });
+
+		duplicateNum(new int[] { 10, 20, 20, 30, 40, 10 });
 
 		swapString("mehak", "kapoor");
 	}
@@ -52,7 +52,7 @@ public class BasicJavaPractice {
 		System.out.println("second list is >>>>");
 
 		for (int i = 1; i < ar.length; i = i + 2) {
-			System.out.println(ar[i]);
+			System.out.println("alternate number in array is: "+ar[i]);
 		}
 
 	}
@@ -66,7 +66,7 @@ public class BasicJavaPractice {
 			for (int j = i + 1; j < ar.length; j++) {
 
 				if (ar[i] == ar[j]) {
-					System.out.println(ar[j] + " ");
+					System.out.println("duplicate number in array is: "+ar[j] + " ");
 
 				}
 			}
